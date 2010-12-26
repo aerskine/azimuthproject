@@ -24,4 +24,4 @@ See this page of the Azimuth project:
 Implement a numerical solution of the SDE system with Hopf bifurcation.
 
 === Solution ===
-The solution was implemented in the component azimuth-sde-models, results were published on the Aziumth blog [here http://johncarlosbaez.wordpress.com/2010/12/24/this-weeks-finds-week-308/].
+The solution was implemented in the component azimuth-sde-models, results were published on the Aziumth blog [here http://johncarlosbaez.wordpress.com/2010/12/24/this-weeks-finds-week-308].
