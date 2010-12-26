@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+#labels Challenge
+
+= Introduction =
+
+This page lists the currently open coding challenges, these are problem descriptions from the Azimuth project that still need a convincing solution.
+
+
+= Challenges =
+
+== The Delayed Action Oscillator ==
+
+See the paper [El Nino and the Delayed Action Oscillator]http://arxiv.org/abs/physics/0603083
+
+Challenge: Implement a numerical solution of the delayed differential equations of the paper and reproduce the graphics.
