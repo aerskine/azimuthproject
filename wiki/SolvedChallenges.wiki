@@ -4,7 +4,7 @@
 
 On this page we report on solved challenges and how their solution have been used on the Azimuth project.
 
-= Challenges =
+= Challenges, December 2010 =
 
 == Two Dimensional Hopf Bifurcation for El Nino ==
 
