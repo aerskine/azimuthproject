@@ -1,0 +1,7 @@
+#This page lists solved challenges and how they were used
+
+= Introduction =
+
+On this page we report on solved challenges and how their solution have been used on the Azimuth project.
+
+= Challenges =
