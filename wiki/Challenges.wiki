@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Challenge
+#Lists open coding problems from the Azimuth project
 
 = Introduction =
 
