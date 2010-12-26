@@ -18,10 +18,10 @@ For more background see the page about El Nino on the Azimuth project: [http://w
 === References to Mathematical and Implementation Issues ===
 See this page of the Azimuth project:
 
-[stochastic differential equations http://www.azimuthproject.org/azimuth/show/Stochastic+differential+equation]
+[http://www.azimuthproject.org/azimuth/show/Stochastic+differential+equation stochastic differential equations ]
 
 === Challenge ===
 Implement a numerical solution of the SDE system with Hopf bifurcation.
 
 === Solution ===
-The solution was implemented in the component azimuth-sde-models, results were published on the Aziumth blog [here http://johncarlosbaez.wordpress.com/2010/12/24/this-weeks-finds-week-308].
+The solution was implemented in the component azimuth-sde-models, results were published on the Aziumth blog [http://johncarlosbaez.wordpress.com/2010/12/24/this-weeks-finds-week-308 here].
