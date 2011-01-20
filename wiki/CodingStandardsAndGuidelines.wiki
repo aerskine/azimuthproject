@@ -1,5 +1,5 @@
 #labels Phase-Implementation,Phase-Design,CodingStandards
-# Coding Standards and Guidelines
+How to create code that is homogeneous and easy to understand.
 
 = Introduction =
 
@@ -17,7 +17,7 @@ We will address both aspects and provide links to pages with more details.
 
 Today we don't write code for the compiler anymore, we write code for humans to read and understand it. This is the guiding principle of "best coding practices", these are guidelines for developers for structuring the code in a way that makes it easy to read and understand for other humans. 
 
-A humurous "anti" best coding pratices guidline is Roedy Green's "How to Write Unmaintainable Code".
+A humurous "anti" best coding pratices guidline is Roedy Green's [http://azimuthproject.googlecode.com/svn/trunk/Wiki/CodingStandards/HowToWriteUnmaintainableCode.pdf How to Write Unmaintainable Code].
 
 An ongoing list taken from practical experience is maintained on this Wiki: [BestCodingPractices]. 
 
