@@ -26,11 +26,13 @@ int i = 1;
 }}}
 An example of a useful inline comment would be instead
 {{{
-// i will be used to count the number of evaluation of all parameterizations at all grid points in every timestep, so care should be taken that there does not occur an overflow if the scales are refined in later runs. 
+// i will be used to count the number of evaluation of all parameterizations at all grid points
+// in every timestep, so care should be taken that there 
+// does not occur an overflow if the scales are refined in later runs. 
 int i = 1;
 }}}
 
-== Choose Variable Names ==
+== Choose Meaningful Variable Names ==
 A variable name should tell the reader what the variable represents. Don't use too many abbreviations. 
 
 Don't shy away from long names, editors today offer auto completion, and every developer should be able to type faster that she is able to think anyway.
