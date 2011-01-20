@@ -1,5 +1,5 @@
 #labels Phase-Implementation,CodingStandards
-#making code easy to understand.
+Making code easy to understand.
 
 = Introduction =
 
