@@ -48,3 +48,26 @@ If we write instead
 bookprice = inflationrate * ISBN;
 }}}
 we are able to conclude that, most probably, something is wrong, without knowing the rest of the code.
+
+== Bundle Your Code Into Little Meaningful Chunks: Methods ==
+If some lines of code work together to achieve one definite goal, put them into their own method. This will make the reuse easier, but it will also make it easier for the reader to understand your code.
+The following example creates a new file and the means to write to it:
+{{{
+String fileName = "newFile";
+
+File file = new File(fileName);
+
+file.createNewFile();
+
+BufferedWriter out = new BufferedWriter(new FileWriter(file));
+}}}
+Now we have four lines of code with a high probability that this kind of functionality will be used more than once. If we put these for lines in a method with the signature
+{{{
+public static Writer createNewFile(String fileName)
+}}}
+there are multiple benefits: One is that the code is now reusable by anyone else, the second one is that the readers of our code don't have to parse and understand 4 lines of code, but only one line:
+
+{{{
+BufferedWriter out =  createNewFile("newFile");
+}}}
+In addition, the line tells the reader actively what it does: "createNewFile", by the means of the method name. The readers are free to choose if they trust the method and move on, of if they need to look at the method in more detail.
