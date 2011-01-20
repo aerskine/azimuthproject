@@ -5,7 +5,7 @@
 
 This page will list some general best coding practices. Hopefully, adhering to these practices will lead to code that is easier to read and understand.
 
-Note: If your code is hard to understand then ultimately it will be thrown away and reimplemented by others. If you don't want to work for the trash can, you need to invest some effort into making your code understandable to other developers.
+*Note*: If your code is hard to understand then ultimately it will be thrown away and reimplemented by others. If you _don't want to work for the trash can_, you need to invest some effort into making your code understandable to other developers.
 
 Naturally this page is and will always be work in progress.
 
@@ -24,3 +24,25 @@ Don't use comments to explain **what** the code is doing, every reader can see t
 // i is an integer that is set to 1
 int i = 1;
 }}}
+An example of a useful inline comment would be instead
+{{{
+// i will be used to count the number of evaluation of all parameterizations at all grid points in every timestep, so care should be taken that there does not occur an overflow if the scales are refined in later runs. 
+int i = 1;
+}}}
+
+== Choose Variable Names ==
+A variable name should tell the reader what the variable represents. Don't use too many abbreviations. 
+
+Don't shy away from long names, editors today offer auto completion, and every developer should be able to type faster that she is able to think anyway.
+
+So don't do something like this:
+{{{
+fricklepitz_35 = fricklepitz_2 * fricklepitz_67;
+}}}
+Is this statement correct? I don't know...
+
+If we write instead
+{{{
+bookprice = inflationrate * ISBN;
+}}}
+we are able to conclude that, most probably, something is wrong, without knowing the rest of the code.
