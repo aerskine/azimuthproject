@@ -1,0 +1,26 @@
+#summary One-sentence summary of this page.
+#labels Phase-Implementation,CodingStandards
+
+= Introduction =
+
+This page will list some general best coding practices. Hopefully, adhering to these practices will lead to code that is easier to read and understand.
+
+Note: If your code is hard to understand then ultimately it will be thrown away and reimplemented by others. If you don't want to work for the trash can, you need to invest some effort into making your code understandable to other developers.
+
+Naturally this page is and will always be work in progress.
+
+Right now it is inspired by the point of view of a developer with background in general software development when confronted with code developed in scientific computing, like global climate models.
+
+We will use C resp. C++ resp. Java syntax on this page.
+
+= Details =
+
+== Use Inline Comments ==
+Of course every developer writes code that is self explaining :-)
+but sometimes there are design decisions or caveats that are not easy to see. This is what inline comments are for.
+
+Don't use comments to explain **what** the code is doing, every reader can see that for herself. So **don't** write
+{{{
+// i is an integer that is set to 1
+int i = 1;
+}}}
