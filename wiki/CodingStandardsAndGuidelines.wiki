@@ -1,0 +1,15 @@
+# Coding Standards and Guidelines
+
+= Introduction =
+
+Every software project needs coding standards and guidelines. There are two kinds of standards:
+
+- those who try to encourage good coding practices that lead to leaner and understandable code,
+
+- those who try to encourage certain conventions that will make the code easier to read because different developers will implement similar things in a similar way, although there are several different equally fitting ways to do it.
+
+We will address both aspects and provide links to pages with more details.
+
+= Details =
+
+TODO
