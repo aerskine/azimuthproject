@@ -84,12 +84,12 @@ for(; index < upperbound; index++) // where does "index come from"?
   // do something here
 }
 }}}
-A further dirty trick is to initialize the variable to 2, of course. Thankfully most modern programming languages allow the definition of variables where there are first needed, so in Java we can rewrite this piece of code to
+A further dirty trick is to initialize the variable to 2, of course. Thankfully most modern programming languages allow the definition of variables where they are needed first, so in Java we can rewrite this piece of code to
 {{{
 .
 . // lot's of things done here
 .
-for(int index = 2; index < upperbound; index++) // where does "index come from"?
+for(int index = 2; index < upperbound; index++) // now it's hard to misunderstand the meaning of 'index'
 {
   // do something here
 }
