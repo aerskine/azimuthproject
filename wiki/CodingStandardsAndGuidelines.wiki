@@ -15,20 +15,24 @@ We will address both aspects and provide links to pages with more details.
 
 == Best Coding Practices ==
 
+Today we don't write code for the compiler anymore, we write code for humans to read and understand it. This is the guiding principle of "best coding practices", these are guidelines for developers for structuring the code in a way that makes it easy to read and understand for other humans. 
 
+A humurous "anti" best coding pratices guidline is Roedy Green's "How to Write Unmaintainable Code".
+
+An ongoing list taken from practical experience is maintained on this Wiki: [BestCodingPractices]. 
 
 == Coding Standards of Others ==
 
 There are of course a lot of coding standards that other projects already defined, here we will link to those that we recommend:
 
-- Java Coding Standards: 
+- Java Coding Standards: TODO
 
 == Tools ==
 
 For Java project we encourage the use of 
 
-- Checkstyle (see [http://en.wikipedia.org/wiki/Checkstyle on Checkstyle])
+- Checkstyle (see [http://en.wikipedia.org/wiki/Checkstyle Wikipedia on Checkstyle])
 
 and
 
-- Firebugs
+- Findbugs (see [http://en.wikipedia.org/wiki/FindBugs Wikipedia on Findbugs])
