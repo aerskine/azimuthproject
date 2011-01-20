@@ -49,7 +49,7 @@ bookprice = inflationrate * ISBN;
 }}}
 we are able to conclude that, most probably, something is wrong, without knowing the rest of the code.
 
-== Bundle Your Code Into Little Meaningful Chunks: Methods ==
+== Bundle Your Code Into Little Chunks: Methods ==
 If some lines of code work together to achieve one definite goal, put them into their own method. This will make the reuse easier, but it will also make it easier for the reader to understand your code.
 The following example creates a new file and the means to write to it:
 {{{
@@ -71,3 +71,26 @@ there are multiple benefits: One is that the code is now reusable by anyone else
 BufferedWriter out =  createNewFile("newFile");
 }}}
 In addition, the line tells the reader actively what it does: "createNewFile", by the means of the method name. The readers are free to choose if they trust the method and move on, of if they need to look at the method in more detail.
+
+== Keep Connected Lines Close Together ==
+Lines of code that depend on one another should be kept as close as possible. Remember that your readers won't remember the lines of code that they read two minutes ago, assume that they remember the last couple of lines of code only. So while in C we have to declare variables at the beginning of a code block
+{{{
+int index = 2;
+.
+. // lot's of things done here
+.
+for(; index < upperbound; index++) // where does "index come from"?
+{
+  // do something here
+}
+}}}
+A further dirty trick is to initialize the variable to 2, of course. Thankfully most modern programming languages allow the definition of variables where there are first needed, so in Java we can rewrite this piece of code to
+{{{
+.
+. // lot's of things done here
+.
+for(int index = 2; index < upperbound; index++) // where does "index come from"?
+{
+  // do something here
+}
+}}}
