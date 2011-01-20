@@ -25,7 +25,7 @@ An ongoing list taken from practical experience is maintained on this Wiki: [Bes
 
 There are of course a lot of coding standards that other projects already defined, here we will link to those that we recommend:
 
-- Java Coding Standards: TODO
+- Java Coding Standards: [http://azimuthproject.googlecode.com/svn/trunk/Wiki/CodingStandards/SUN_Coding_Conventions.d01.pdf SUN Java Coding Standards]
 
 == Tools ==
 
