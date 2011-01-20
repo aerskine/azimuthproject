@@ -1,3 +1,4 @@
+#labels Phase-Implementation,Phase-Design,CodingStandards
 # Coding Standards and Guidelines
 
 = Introduction =
@@ -12,4 +13,22 @@ We will address both aspects and provide links to pages with more details.
 
 = Details =
 
-TODO
+== Best Coding Practices ==
+
+
+
+== Coding Standards of Others ==
+
+There are of course a lot of coding standards that other projects already defined, here we will link to those that we recommend:
+
+- Java Coding Standards: 
+
+== Tools ==
+
+For Java project we encourage the use of 
+
+- Checkstyle (see [http://en.wikipedia.org/wiki/Checkstyle on Checkstyle])
+
+and
+
+- Firebugs
