@@ -48,8 +48,9 @@ Another example:
 .
 // now erg has all necessary data to connect to the file system.
 }}}
-These comments explain pre- and postconditions. If there is a bug
-somewhere in the code and the instance "erg" was not supplied
+These comments explain pre- and postconditions. If there is a bug report
+ like "software does not write anything to the file system" because 
+the instance "erg" was not supplied
 with the necessary password to connect to the file system,
 a developer looking for the bug will instantly figure out, with the
 help of the comments, that the bug must be somewhere between
