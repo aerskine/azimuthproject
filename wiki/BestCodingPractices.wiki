@@ -94,3 +94,37 @@ for(int index = 2; index < upperbound; index++) // now it's hard to misunderstan
   // do something here
 }
 }}}
+
+== Keep Nested Blocks to at most 4 ==
+In the C programming language family, a code block is delimited by curly brackets. Code blocks can stand on their own, but their primary use is to enclose loops like "for" or "while" loops, or conditional statements. It is possible to have conditional statement inside a loop inside a loop like this:
+{{{
+for(int i = 0; i < firstBound; i++)
+{
+  for(int j = 0; j < secondBound; j++)
+  {
+     int r = 10;
+     while(r > j)
+     {
+        // do something here
+        r = i * j % 3
+        if(r = 2)
+        {
+            break;
+        }  // end of if  
+     }  // end of while(r > j)
+  } // end of for(j...)
+} // end of for(i...)
+}}}
+This example has a "nesting level" of 4, which means we need 4 opening and 4 closing curly brackets.
+It is a matter of experience that most readers have problems to understand a piece of code that has a nesting level of more than 4. This can be avoided by moving code blocks to their own methods, for example.
+In our case we could refactor the code to 
+{{{
+for(int i = 0; i < firstBound; i++)
+{
+  for(int j = 0; j < secondBound; j++)
+  {
+      doInnerLoopComputation(i, j);
+  } // end of for(j...)
+} // end of for(i...)
+}}}
+to reduce the nesting level from 2 to 4.
