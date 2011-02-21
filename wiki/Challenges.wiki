@@ -28,4 +28,4 @@ There is a page about delayed differential equations (both stochastic and determ
 [http://www.azimuthproject.org/azimuth/show/Stochastic+delay+differential+equation Stochastic delay differential equation]
 
 === Challenge ===
-Implement a numerical solution of the delayed differential equations of the paper [http://arxiv.org/abs/physics/0603083 El Nino and the Delayed Action Oscillator] and reproduce the graphics published therein.
+Implement FFT in Scala.
