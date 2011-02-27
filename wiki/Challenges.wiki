@@ -12,7 +12,7 @@ Background material to the underlying science, mathematics and implementation is
 
 = Challenges =
 
-== The Delayed Action Oscillator ==
+== *The Delayed Action Oscillator* ==
 
 This challenge is about a model of El Nino, a quasi-periodic climate phenomenon that occurs across the tropical Pacific Ocean every 3 to 7 years, and on average every 4 years.
 The model uses a low dimensional (in fact: one dimensional) system of ordinary delay differential equations to capture the interaction of the Pacific Ocean (slow process with a long memory) and the atmosphere (quickly varying process with almost not memory).
@@ -27,5 +27,5 @@ There is a page about delayed differential equations (both stochastic and determ
 
 [http://www.azimuthproject.org/azimuth/show/Stochastic+delay+differential+equation Stochastic delay differential equation]
 
-=== Challenge ===
+== FFT in Scala ==
 Implement FFT in Scala.
