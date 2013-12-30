@@ -1,6 +1,8 @@
 #labels Challenge
 #Lists open coding problems from the Azimuth project
 
+*Caution:* this page is no longer actively maintained. The interested reader should consult the [http://www.azimuthproject.org/azimuth/show/Azimuth+Code+Challenges relevant Azimuth wiki page].
+
 = Introduction =
 
 This page lists the currently open coding challenges, these are problem descriptions from the Azimuth project that still need a convincing solution. 
